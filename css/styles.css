@@ -13,7 +13,7 @@ h1 {
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   font-family: 'Ubuntu', sans-serif;
-  line-height: 1;
+  line-height: 2.5;
 }
 
 h2 {
@@ -21,7 +21,8 @@ h2 {
   font-family: 'Didact Gothic', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
-  padding-bottom: 10px;
+  line-height: 1.5rem;
+  padding-bottom: 2%;
 }
 
 h3 {
@@ -38,9 +39,10 @@ a {
 }
 
 hr {
+  background: none;
   border: dotted #393e46 8px;
   border-bottom: none;
-  width: 3%;
+  width: 5%;
   margin: 100px auto;
 }
 
@@ -50,12 +52,19 @@ p {
 
 .top-container {
   background-color: #bebebe;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
   position: relative;
-  padding-top: 100px;
+  padding-top: 10px;
   padding-bottom: 100px;
 }
 
 .middle-container {
+  display: block;
+  justify-content: center;
   background-color: #eeeeee;
   padding: 100px;
 }
@@ -67,10 +76,9 @@ p {
 
 /* right small penta */
 .top-cloud {
-  position: absolute;
-  right: 260px;
-  top: 370px;
-  animation: spin 3600s steps(1, end) infinite;
+  right: 200px;
+  top: 220px;
+  animation: spin 3600s steps(60, end) infinite;
 }
 
 @keyframes spin {
@@ -81,10 +89,9 @@ p {
 
 /* left small penta */
 .bottom-cloud {
-  position: absolute;
-  left: 250px;
-  top: 370px;
-  animation: spin 60s steps(60, end) infinite;
+  left: 200px;
+  top: 220px;
+  animation: spin 1000ms steps(60, end) infinite;
 }
 
 @keyframes spin {
@@ -95,7 +102,7 @@ p {
 
 /* middle penta */
 .mountain {
-  animation: spin 3600s steps(60, end) infinite;
+  animation: spin 60s steps(60, end) infinite;
 }
 
 @keyframes spin {
@@ -105,17 +112,21 @@ p {
 }
 
 .code {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-  margin-top: 50px;
+  width: 70px;
+  /* float: left; */
+  display: flex;
+  margin: auto;
+  /* margin-right: 30px;
+  margin-top: 50px; */
 }
 
 .mixer {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-  margin-top: 38px;
+  width: 70px;
+  /* float: right; */
+  display: flex;
+  margin: auto;
+  /* margin-left: 30px;
+  margin-top: 38px; */
 }
 
 .pro {
@@ -123,13 +134,26 @@ p {
 }
 
 .intro {
-  text-align: justify;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  display: flex;
   margin: auto;
-  width: 30%;
+  /* width: 30%; */
+  display: flex;
+  text-align: justify;
+
 }
 
 .tagline {
   color: #f05454;
+  line-height: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .contact-message {
@@ -145,22 +169,45 @@ p {
 .copyright {
   color: #EAF6F6;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   padding: 20px 0;
 }
 
 .design {
-  text-align: left;
+  display: flex;
+  text-align: center justify;
 }
 
 .audio {
-  text-align: left;
+  display: flex;
+  text-align: center justify;
 }
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 50px auto;
   text-align: center;
+}
+
+.contact-style {
+  background-color: #bebebe;
+  display: block;
+}
+
+.contact-heading {
+  color: #161616;
+  font-size: 5.625rem;
+  margin: auto;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+}
+
+.contact-tagline {
+  color: #f05454;
+  font-size: 2.5rem;
+  margin: auto;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
 }
 
 .btn {
