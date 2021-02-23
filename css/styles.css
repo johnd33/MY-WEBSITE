@@ -231,3 +231,14 @@ p {
   background: #f09090;
   text-decoration: none;
 }
+
+@media only screen and (min-width: 400px) {
+  h1 {
+    font-size: 3.625rem;
+  }
+}
+
+.player {
+  border: dotted 10px;
+  color: red;
+}
