@@ -3,13 +3,16 @@
 body {
   color: #40514E;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 0.85rem;
+  font-size: 1rem;
   margin: 0;
   text-align: center;
 }
 
 h1 {
-  color: #161616;
+  /* color: #161616; */
+  background: linear-gradient(270deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   font-family: 'Ubuntu', sans-serif;
@@ -17,7 +20,10 @@ h1 {
 }
 
 h2 {
-  color: #222831;
+  /* color: #000000; */
+  background: linear-gradient(270deg, #a0e9ff 25%, #a162e8 45%, #f093b0 70%, #edca85 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Didact Gothic', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
@@ -26,13 +32,16 @@ h2 {
 }
 
 h3 {
-  color: #f05454;
+  /* color: #f05454; */
+  background: linear-gradient(270deg, #a0e9ff 25%, #a162e8 45%, #f093b0 70%, #edca85 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: 'Didact Gothic', sans-serif;
   line-height: 2;
 }
 
 a {
-  color: #f05454;
+  color: #a162e8;
   font-family: "Montserrat", sans-serif;
   margin: 10px 20px;
   text-decoration: none;
@@ -51,15 +60,20 @@ p {
 }
 
 .top-container {
-  background-color: #bebebe;
+  background-color: black;
   display: block;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   height: 100%;
   width: 100%;
   position: relative;
   padding-top: 10px;
   padding-bottom: 100px;
+}
+
+.middle-mid-container {
+  display: block;
+  text-align: center;
 }
 
 .middle-container {
@@ -70,8 +84,20 @@ p {
 }
 
 .bottom-container {
-  background-color: #393e46;
+  background-color: black;
   padding: 50px 0 20px;
+}
+
+.navbar-brand {
+  background: linear-gradient(270deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link:hover {
+  background: linear-gradient(90deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* right small penta */
@@ -135,17 +161,15 @@ p {
 
 .intro {
   width: 50%;
-  margin: 100px auto 100px auto;
+  /* margin: 100px auto 100px auto; */
   display: flex;
   margin: auto;
-  /* width: 30%; */
-  display: flex;
-  text-align: justify;
-
 }
 
 .tagline {
   color: #f05454;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   line-height: 2.5rem;
   display: flex;
   justify-content: center;
@@ -157,13 +181,16 @@ p {
 }
 
 .contact-message {
+  display: block;
   width: 40%;
   margin: 40px auto 60px;
-  color: #f05454;
+  background: linear-gradient(90deg, #a162e8 50%, #f093b0 70%, #edca85 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .footer-link:hover {
-  color: #EAF6F6;
+  color: #f093b0;
 }
 
 .copyright {
@@ -171,11 +198,15 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 0.85rem;
   padding: 20px 0;
+  background: linear-gradient(90deg, #a162e8 30%, #f093b0 50%, #edca85 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .design {
   display: flex;
   text-align: center justify;
+  /* align-content: center; */
 }
 
 .audio {
@@ -186,11 +217,11 @@ p {
 .skill-row {
   width: 50%;
   margin: 50px auto 50px auto;
-  text-align: center;
+  align-content: center;
 }
 
 .contact-style {
-  background-color: #bebebe;
+  background-color: #EEEEEE;
   display: block;
 }
 
@@ -200,6 +231,8 @@ p {
   margin: auto;
   font-family: 'Ubuntu', sans-serif;
   line-height: 1.5;
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
 
 .contact-tagline {
@@ -211,30 +244,34 @@ p {
 }
 
 .btn {
-  background: #f05454;
-  background-image: -webkit-linear-gradient(top, #f05454, #f05454);
-  background-image: -moz-linear-gradient(top, #f05454, #f05454);
-  background-image: -ms-linear-gradient(top, #f05454, #f05454);
-  background-image: -o-linear-gradient(top, #f05454, #f05454);
-  background-image: linear-gradient(to bottom, #f05454, #f05454);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Arial;
-  color: #ffffff;
+  background: #f093b0;
+  background-image: -webkit-linear-gradient(top, #f093b0, #a162e8);
+  background-image: -moz-linear-gradient(top, #f093b0, #a162e8);
+  background-image: -ms-linear-gradient(top, #f093b0, #a162e8);
+  background-image: -o-linear-gradient(top, #f093b0, #a162e8);
+  background-image: linear-gradient(to bottom, #f093b0, #a162e8);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
   font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 9px 18px 9px 18px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #f09090;
+  background: #bebebe;
   text-decoration: none;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 300px) {
   h1 {
-    font-size: 4.625rem;
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 2.20rem;
   }
 }
 
