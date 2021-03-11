@@ -10,7 +10,7 @@ body {
 
 h1 {
   /* color: #161616; */
-  background: linear-gradient(270deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 90%);
+  background: linear-gradient(270deg, #b8fb3b 30%, #5ce5d5 50%, #a162e8 70%, #7898fb 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 5.625rem;
@@ -21,7 +21,7 @@ h1 {
 
 h2 {
   /* color: #000000; */
-  background: linear-gradient(270deg, #a0e9ff 25%, #a162e8 45%, #f093b0 70%, #edca85 90%);
+  background: linear-gradient(270deg, #b8fb3b 30%, #5ce5d5 50%, #a162e8 70%, #7898fb 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Didact Gothic', sans-serif;
@@ -33,7 +33,7 @@ h2 {
 
 h3 {
   /* color: #f05454; */
-  background: linear-gradient(270deg, #a0e9ff 25%, #a162e8 45%, #f093b0 70%, #edca85 90%);
+  background: linear-gradient(270deg, #5ce5d5 50%, #a162e8 70%, #7898fb 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Didact Gothic', sans-serif;
@@ -89,13 +89,13 @@ p {
 }
 
 .navbar-brand {
-  background: linear-gradient(270deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 90%);
+  background: linear-gradient(270deg, #b8fb3b 30%, #5ce5d5 50%, #a162e8 70%, #7898fb 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .nav-link:hover {
-  background: linear-gradient(90deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 90%);
+  background: linear-gradient(90deg, #b8fb3b 30%, #5ce5d5 50%, #a162e8 70%, #7898fb 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -105,6 +105,7 @@ p {
   right: 200px;
   top: 220px;
   animation: spin 3600s steps(60, end) infinite;
+  width: 15%;
 }
 
 @keyframes spin {
@@ -118,6 +119,7 @@ p {
   left: 200px;
   top: 220px;
   animation: spin 1000ms steps(60, end) infinite;
+  width: 15%;
 }
 
 @keyframes spin {
@@ -129,6 +131,7 @@ p {
 /* middle penta */
 .mountain {
   animation: spin 60s steps(60, end) infinite;
+  width: 15%;
 }
 
 @keyframes spin {
@@ -184,7 +187,7 @@ p {
   display: block;
   width: 40%;
   margin: 40px auto 60px;
-  background: linear-gradient(90deg, #a162e8 50%, #f093b0 70%, #edca85 90%);
+  background: linear-gradient(270deg, #5ce5d5 50%, #a162e8 70%, #7898fb 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -198,7 +201,7 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 0.85rem;
   padding: 20px 0;
-  background: linear-gradient(90deg, #a162e8 30%, #f093b0 50%, #edca85 90%);
+  background: linear-gradient(90deg, #b8fb3b 30%, #5ce5d5 50%, #a162e8 70%, #7898fb 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
